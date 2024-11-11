@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(135, 131, 131);
+  color: white;
+     
+}
+
+/* it removes scroll bar */
+/* body::-webkit-scrollbar{
+  display: none;
+} */
+
+
+
+.nav_bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: blue;
+}
+
+.search_bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 8px;
+  width: 30%;
+}
+
+.search_bar input{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 400px;
+} 
+
+.search_bar input::placeholder{
+  font-weight: bold;
+  color: white;
+}
+.search_bar input:focus{
+  outline: none;
+}
+
+.sub_bar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(64, 63, 66);
+}
+.sub_bar .items{
+  padding:10px ;
+  cursor: pointer;
+  font-weight: bold;
+}
+.sub_bar .items:hover{
+   background-color: rgb(45, 44, 44) ;
+}
+
+td{
+  vertical-align: middle;
+  /* cursor: pointer; */
+}
