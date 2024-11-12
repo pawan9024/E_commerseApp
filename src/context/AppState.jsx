@@ -9,6 +9,7 @@ const AppState = (props) => {
 
     // const url = "http://localhost:3000/api"
 
+    // backend API
     const url = "https://checkmart-mern-e-commerce-project-api.onrender.com/api"
 
 
