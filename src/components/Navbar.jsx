@@ -15,7 +15,7 @@ const Navbar = () => {
     setFilteredData(products.filter((data) => data.category.toLowerCase() == cat.toLowerCase()))
   }
 
-  const filterByPrice = (price) => {
+const filterByPrice = (price) => {
     setFilteredData(products.filter((data) => data.price >= price))
   }
 
