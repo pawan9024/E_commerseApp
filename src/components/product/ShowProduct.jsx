@@ -2,7 +2,7 @@
 import React, { useContext } from 'react'
 import AppContext from '../../context/AppContext'
 import { Link } from 'react-router-dom'
-import Slider from '../Slider'
+// import Slider from '../Slider'
 
 const ShowProduct = () => {
 
@@ -10,9 +10,9 @@ const ShowProduct = () => {
   return (
     <div className="container my-5"> {/* Wrap everything in a Bootstrap container */}
       
-      <div>
+      {/* <div>
         <Slider />
-      </div>
+      </div> */}
       
       <div className="row g-5"> {/* Add a gap of 5 between cards */}
         {filteredData?.map((product) => (
