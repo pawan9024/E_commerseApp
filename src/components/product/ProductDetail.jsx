@@ -10,9 +10,9 @@ const ProductDetail = () => {
 
   const {id} = useParams();
 
-  const url = "http://localhost:3000/api"
+//   const url = "http://localhost:3000/api"
 
-//   const url = "https://checkmart-mern-e-commerce-project-api.onrender.com/api"
+  const url = "https://checkmart-mern-e-commerce-project-api.onrender.com/api"
 
   const [product, setProduct] = useState()
   
